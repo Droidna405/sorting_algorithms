@@ -33,11 +33,7 @@ void print_array(const int *array, size_t size);
  */
 void print_list(const listint_t *list);
 
-/**
- * bubble_sort - Sorts an array of integers in ascending order
- * @array: The array to be sorted
- * @size: Number of elements in @array
- */
 void bubble_sort(int *array, size_t size);
+void insertion_sort_list(listint_t **list);
 
 #endif /* SORT_H */
